@@ -4,6 +4,12 @@
 
 :root {
     --color-main: #1ebfc1;
+    --color-desc: #9da6a5;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
 }
 
 html {
@@ -60,6 +66,30 @@ a {
     display: block;
     margin: 0;
     padding: 0;
+}
+
+.heading {
+    color: #0d1111;
+    font-weight: 700;
+}
+
+.heading.lv1 {
+    font-size: 6.2rem;
+    line-height: 7.2rem; /* 116.129% */
+}
+
+.heading.lv2 {
+    font-size: 4.2rem;
+    line-height: 5.6rem; /* 133.333% */
+}
+
+.heading.lv3 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.comment {
+    color: #767e7e;
 }
 /* Header */
 .header {
@@ -143,24 +173,20 @@ a {
 }
 
 .hero-left .comment {
-    color: #767e7e;
     font-size: 1.4rem;
+    font-weight: 400;
 }
 
 .hero-left .heading {
     margin: 1.8rem 0 4.6rem;
-    color: #0d1111;
-    font-size: 6.2rem;
-    font-weight: 700;
-    line-height: 7.2rem; /* 116.129% */
 }
 
 .hero-left .desc {
     width: 37.4rem;
     height: 9.6rem;
-    color: #9da6a5;
+    color: var(--color-desc);
     font-size: 1.8rem;
-    line-height: 3.2rem; /* 177.778% */
+    line-height: 3.2rem;
 }
 
 .hero-left .cta-group {
@@ -330,4 +356,86 @@ a {
 
 .hero-right .avatars img:first-child {
     margin-left: 0;
+}
+
+/* Features */
+
+.features {
+    margin-top: 3rem;
+    padding: 10rem 0;
+}
+
+.features .body {
+    width: 102.4rem;
+}
+
+.features .feature {
+    width: 59.1rem;
+}
+
+.feature .comment {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.feature .heading {
+    margin: 1.8rem 0;
+}
+
+.feature .desc {
+    margin-left: 0.1rem;
+    color: #767e7e;
+    font-size: 1.8rem;
+    line-height: normal;
+}
+
+.feature-list {
+    display: flex;
+    margin-top: 8rem;
+}
+
+.feature-item {
+    margin-left: 20.9rem;
+    width: 22.3rem;
+    height: 25.9rem;
+}
+.feature-item:first-child {
+    margin-left: 0;
+    width: 16.8rem;
+}
+
+.feature-item:last-child {
+    margin-left: 20rem;
+    width: 22.4rem;
+}
+
+.feature-list .feature-item .img-block {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    width: 10.2rem;
+    height: 10.6rem;
+}
+
+.feature-item .img-block.bl1 {
+    background-color: #ffc147;
+}
+
+.feature-item .img-block.bl2 {
+    background-color: #ff947a;
+}
+
+.feature-item .img-block.bl3 {
+    background-color: #bf83ff;
+}
+
+.feature-item .heading {
+    margin: 2.6rem 0 1.6rem;
+}
+
+.feature-item .desc {
+    color: var(--color-desc);
+    font-size: 1.6rem;
+    line-height: 2.7rem; /* 168.75% */
 }
