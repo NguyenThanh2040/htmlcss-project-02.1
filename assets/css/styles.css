@@ -149,7 +149,8 @@ a {
 }
 
 .header .nav a:hover,
-.header .action {
+.header .action,
+.actions .action-link:hover {
     text-shadow: 1px 0 0 currentColor;
 }
 
@@ -228,7 +229,9 @@ a {
     display: flex;
     border: none;
     background: none;
+    margin-top: 0.3rem;
     width: 6.2rem;
+    color: #2ac9bf;
     height: 6.2rem;
     align-items: center;
     justify-content: center;
@@ -238,6 +241,8 @@ a {
 
 .hero-left .icon-video button:hover {
     cursor: pointer;
+    color: #fff;
+    background-color: #2ac9bf;
 }
 
 /* Hero right */
@@ -487,6 +492,9 @@ a {
     color: var(--color-main);
     font-size: 1.4rem;
     font-weight: 700;
+}
+
+.course .link:hover {
     text-decoration-line: underline;
 }
 
@@ -673,10 +681,19 @@ a {
 .feedback-left .arrows .doc {
     width: 5rem;
     height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2ac9bf;
     cursor: pointer;
-    background-color: #2ac9bf;
+    background-color: #fff;
     border-radius: 50%;
-    border-color: transparent;
+    border: 1px solid #2ac9bf;
+}
+
+.feedback-left .arrows .doc:hover {
+    color: #fff;
+    background-color: #2ac9bf;
 }
 
 .feedback .arrows button:last-child {
