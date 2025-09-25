@@ -795,3 +795,66 @@ a {
     font-weight: 600;
     line-height: normal;
 }
+
+/* footer */
+
+.footer {
+    margin-top: 13.1rem;
+}
+
+.footer .body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer ul h3 {
+    color: #2e2e2e;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer ul h3 {
+    margin-bottom: 2.6rem;
+}
+
+.footer ul:last-child h3 {
+    margin-bottom: 2.5rem;
+}
+
+.footer ul li {
+    margin-bottom: 1.8rem;
+}
+
+.footer ul li a {
+    color: #535353;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.footer ul li:hover {
+    text-decoration: underline;
+}
+
+.footer ul li span {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+}
+
+.footer .bottom .descs {
+    color: #b0b5b4;
+    font-size: 1.8rem;
+}
