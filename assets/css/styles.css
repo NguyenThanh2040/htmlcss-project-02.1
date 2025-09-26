@@ -108,6 +108,10 @@ a {
     color: #767e7e;
 }
 
+.comment .m1 {
+    font-weight: 400;
+}
+
 .desc {
     color: var(--color-desc);
     font-size: 1.6rem;
